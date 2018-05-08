@@ -1,0 +1,3318 @@
+[
+  {
+    "date": "2017-01-02",
+    "time": "14:25:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Unknown",
+    "injury_location": "Lower back",
+    "treatment": [
+      "Unknown"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": null
+  },
+  {
+    "date": "2017-01-13",
+    "time": "13:05:00",
+    "age": "18",
+    "gender": "Female",
+    "ability": "20",
+    "ticket_type": "Day ticket",
+    "injury_location": "Knee",
+    "treatment": [
+      "Fracture",
+      "Sprain",
+      "Dislocation"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-01-14",
+    "time": "13:25:00",
+    "age": "26",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Day ticket",
+    "injury_location": "Foot",
+    "treatment": [
+      "Strain",
+      "Bruise"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-01-21",
+    "time": "11:40:00",
+    "age": "17",
+    "gender": "Male",
+    "ability": "50",
+    "ticket_type": "Season Pass",
+    "injury_location": "Clavicle",
+    "treatment": [
+      "Fracture",
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-01-26",
+    "time": "13:30:00",
+    "age": "31",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Unknown",
+    "injury_location": "Clavicle",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-01-28",
+    "time": "11:45:00",
+    "age": "10",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": null
+  },
+  {
+    "date": "2017-01-29",
+    "time": "11:30:00",
+    "age": "13",
+    "gender": "Male",
+    "ability": "50",
+    "ticket_type": "Unknown",
+    "injury_location": "Face",
+    "treatment": [
+      "Bruise",
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-03",
+    "time": "14:16:00",
+    "age": "8",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Upper arm",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-04",
+    "time": "10:30:00",
+    "age": "9",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower back",
+    "treatment": [
+      "Not applicable"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-04",
+    "time": "12:00:00",
+    "age": "15",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Unknown",
+    "injury_location": "Head",
+    "treatment": [
+      "Bruise",
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-10",
+    "time": "12:00:00",
+    "age": "21",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Day ticket",
+    "injury_location": "Knee",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-10",
+    "time": "15:10:00",
+    "age": "30",
+    "gender": "Female",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Knee",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-11",
+    "time": "14:10:00",
+    "age": "13",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Head",
+    "treatment": [
+      "Bruise",
+      "Concussion"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-02-11",
+    "time": "13:30:00",
+    "age": "24",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Day ticket",
+    "injury_location": "Knee",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-12",
+    "time": "13:15:00",
+    "age": "9",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Tailbone",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-12",
+    "time": "15:15:00",
+    "age": "9",
+    "gender": "Female",
+    "ability": "20",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower leg",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-12",
+    "time": "14:30:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Ankle",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-02-12",
+    "time": "14:50:00",
+    "age": "17",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Season Pass",
+    "injury_location": "Finger",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-17",
+    "time": "14:30:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-18",
+    "time": "14:30:00",
+    "age": "10",
+    "gender": "Male",
+    "ability": "0",
+    "ticket_type": "Unknown",
+    "injury_location": "Face",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-02-18",
+    "time": "11:45:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Unknown",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-18",
+    "time": "14:00:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Upper abdomen",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-02-24",
+    "time": "14:45:00",
+    "age": "10",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower arm",
+    "treatment": [
+      "Fracture",
+      "Bruise"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-25",
+    "time": "13:40:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Unknown",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-26",
+    "time": "13:15:00",
+    "age": "13",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower leg",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-02-26",
+    "time": "13:45:00",
+    "age": "48",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Tailbone",
+    "treatment": [
+      "Unknown"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": null
+  },
+  {
+    "date": "2017-03-03",
+    "time": "12:50:00",
+    "age": "10",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Day ticket",
+    "injury_location": "Face",
+    "treatment": [
+      "Frostbite"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": null
+  },
+  {
+    "date": "2017-03-05",
+    "time": "14:00:00",
+    "age": "16",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-03-10",
+    "time": "15:00:00",
+    "age": "25",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Day ticket",
+    "injury_location": "Shoulder",
+    "treatment": [
+      "Sprain",
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-03-12",
+    "time": "14:43:00",
+    "age": "13",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Knee",
+    "treatment": [
+      "Sprain",
+      "Strain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": null
+  },
+  {
+    "date": "2017-03-17",
+    "time": "13:15:00",
+    "age": "31",
+    "gender": "Female",
+    "ability": "40",
+    "ticket_type": "Day ticket",
+    "injury_location": "Knee",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": null
+  },
+  {
+    "date": "2017-03-18",
+    "time": "13:25:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Knee",
+    "treatment": [
+      "Sprain",
+      "Strain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": null
+  },
+  {
+    "date": "2017-03-20",
+    "time": "13:50:00",
+    "age": "9",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Unknown",
+    "injury_location": "Ankle",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-03-21",
+    "time": "10:45:00",
+    "age": "7",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Face",
+    "treatment": [
+      "Laceration"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Unknown",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": null
+  },
+  {
+    "date": "2017-03-21",
+    "time": "13:12:00",
+    "age": "10",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Elbow",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Not applicable",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": null
+  },
+  {
+    "date": "2017-03-21",
+    "time": "10:40:00",
+    "age": "26",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Day ticket",
+    "injury_location": "Neck",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-03-24",
+    "time": "14:31:00",
+    "age": "12",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Wrist",
+    "treatment": [
+      "Sprain",
+      "Strain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-03-26",
+    "time": "14:45:00",
+    "age": "39",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Knee",
+    "treatment": [
+      "Sprain",
+      "Strain"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-03-27",
+    "time": "15:45:00",
+    "age": "24",
+    "gender": "Female",
+    "ability": "20",
+    "ticket_type": "Unknown",
+    "injury_location": "Knee",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-03-28",
+    "time": "12:00:00",
+    "age": "8",
+    "gender": "Male",
+    "ability": "0",
+    "ticket_type": "Day ticket",
+    "injury_location": "Face",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": null
+  },
+  {
+    "date": "2017-03-28",
+    "time": "12:15:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Doctor",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-03-29",
+    "time": "12:40:00",
+    "age": "15",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Finger",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-03-29",
+    "time": "14:20:00",
+    "age": "12",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower back",
+    "treatment": [
+      "Strain",
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-03-29",
+    "time": "14:50:00",
+    "age": "10",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Unknown",
+    "injury_location": "Ankle",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-03-29",
+    "time": "16:30:00",
+    "age": "44",
+    "gender": "Female",
+    "ability": "-1",
+    "ticket_type": "Not applicable",
+    "injury_location": "Ankle",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Not applicable",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-03-30",
+    "time": "12:42:00",
+    "age": "58",
+    "gender": "Female",
+    "ability": "40",
+    "ticket_type": "Day ticket",
+    "injury_location": "Lower back",
+    "treatment": [
+      "Unknown"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-04-01",
+    "time": "12:05:00",
+    "age": "42",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Ankle",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "",
+    "transport_out": "Not applicable",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": null
+  },
+  {
+    "date": "2017-04-01",
+    "time": "14:48:00",
+    "age": "9",
+    "gender": "Female",
+    "ability": "0",
+    "ticket_type": "Unknown",
+    "injury_location": "Shoulder",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-04-01",
+    "time": "15:15:00",
+    "age": "10",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Knee",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": null
+  },
+  {
+    "date": "2017-04-01",
+    "time": "15:30:00",
+    "age": "16",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-04-01",
+    "time": "13:55:00",
+    "age": "8",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Face",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-04-02",
+    "time": "11:00:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Hip",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-04-07",
+    "time": "11:10:00",
+    "age": "10",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Day ticket",
+    "injury_location": "Wrist",
+    "treatment": [
+      "Sprain",
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Unknown",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-04-09",
+    "time": "13:30:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "0",
+    "ticket_type": "Unknown",
+    "injury_location": "Knee",
+    "treatment": [
+      "Sprain",
+      "Strain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": null
+  },
+  {
+    "date": "2017-04-14",
+    "time": "12:40:00",
+    "age": "12",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Ankle",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-04-14",
+    "time": "15:40:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Ankle",
+    "treatment": [
+      "Sprain",
+      "Strain"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": null
+  },
+  {
+    "date": "2017-04-15",
+    "time": "14:35:00",
+    "age": "44",
+    "gender": "Male",
+    "ability": "0",
+    "ticket_type": "Unknown",
+    "injury_location": "Tailbone",
+    "treatment": [
+      "Bruise",
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": null
+  },
+  {
+    "date": "2017-04-18",
+    "time": "16:00:00",
+    "age": "17",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Unknown",
+    "injury_location": "Knee",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-06-28",
+    "time": "20:10:00",
+    "age": "23",
+    "gender": "Male",
+    "ability": "0",
+    "ticket_type": "Day ticket",
+    "injury_location": "Lower back",
+    "treatment": [
+      "Bruise",
+      "Laceration"
+    ],
+    "transport_base": "",
+    "transport_out": "",
+    "location": null,
+    "destination": "",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)",
+      "samuel_oettli"
+    ]
+  },
+  {
+    "date": "2017-11-21",
+    "time": "13:15:00",
+    "age": "16",
+    "gender": "Male",
+    "ability": "50",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-11-22",
+    "time": "10:30:00",
+    "age": "22",
+    "gender": "Female",
+    "ability": "40",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Face",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-11-23",
+    "time": "13:50:00",
+    "age": "15",
+    "gender": "Female",
+    "ability": "50",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2017-11-23",
+    "time": "14:50:00",
+    "age": "16",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Head",
+    "treatment": [
+      "Bruise",
+      "Concussion"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "steve_hahn",
+      "sylvie_geoffroy"
+    ]
+  },
+  {
+    "date": "2017-11-24",
+    "time": "10:30:00",
+    "age": "17",
+    "gender": "Male",
+    "ability": "50",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Thumb",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2017-11-24",
+    "time": "11:25:00",
+    "age": "-1",
+    "gender": "Female",
+    "ability": "50",
+    "ticket_type": "Unknown",
+    "injury_location": "Knee",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Unknown",
+    "transport_out": "Unknown",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": [
+      "bill_mann"
+    ]
+  },
+  {
+    "date": "2017-11-24",
+    "time": "15:00:00",
+    "age": "15",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Lower leg",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-11-25",
+    "time": "14:30:00",
+    "age": "20",
+    "gender": "Male",
+    "ability": "50",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Hand",
+    "treatment": [
+      "Laceration"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2017-11-26",
+    "time": "14:10:00",
+    "age": "13",
+    "gender": "Female",
+    "ability": "50",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Lower leg",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "fabien_cayer-barrioz"
+    ]
+  },
+  {
+    "date": "2017-11-26",
+    "time": "10:30:00",
+    "age": "14",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-12-01",
+    "time": "13:55:00",
+    "age": "10",
+    "gender": "Female",
+    "ability": "20",
+    "ticket_type": "Unknown",
+    "injury_location": "Ankle",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "sylvie_geoffroy",
+      "Steve Reid",
+      "tim_sellars"
+    ]
+  },
+  {
+    "date": "2017-12-02",
+    "time": "10:50:00",
+    "age": "16",
+    "gender": "Female",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower leg",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Ken Howard"
+    ]
+  },
+  {
+    "date": "2017-12-03",
+    "time": "11:45:00",
+    "age": "9",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower arm",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "bill_mann",
+      "richard_malvasio",
+      "william_ball"
+    ]
+  },
+  {
+    "date": "2017-12-10",
+    "time": "12:45:00",
+    "age": "9",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Knee",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "amanda_mouchet",
+      "sylvie_geoffroy"
+    ]
+  },
+  {
+    "date": "2017-12-10",
+    "time": "13:00:00",
+    "age": "68",
+    "gender": "Female",
+    "ability": "-1",
+    "ticket_type": "Not applicable",
+    "injury_location": "Medical",
+    "treatment": null,
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": [
+      "Steve Reid",
+      "Kylie Campbell",
+      "tim_sellars"
+    ]
+  },
+  {
+    "date": "2017-12-10",
+    "time": "13:40:00",
+    "age": "14",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Ankle",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "fabien_cayer-barrioz",
+      "samuel_oettli",
+      "tim_sellars"
+    ]
+  },
+  {
+    "date": "2017-12-10",
+    "time": "13:35:00",
+    "age": "18",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Shoulder",
+    "treatment": [
+      "Dislocation"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Kylie Campbell",
+      "tim_sellars"
+    ]
+  },
+  {
+    "date": "2017-12-16",
+    "time": "11:15:00",
+    "age": "35",
+    "gender": "Male",
+    "ability": "-1",
+    "ticket_type": "Not applicable",
+    "injury_location": "Hand",
+    "treatment": [
+      "Laceration"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Other",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-12-16",
+    "time": "13:45:00",
+    "age": "23",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Day ticket",
+    "injury_location": "Shoulder",
+    "treatment": [
+      "Dislocation"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "don_white"
+    ]
+  },
+  {
+    "date": "2017-12-17",
+    "time": "12:00:00",
+    "age": "8",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Lower leg",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "fabien_cayer-barrioz",
+      "Kylie Campbell"
+    ]
+  },
+  {
+    "date": "2017-12-17",
+    "time": "14:10:00",
+    "age": "12",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Unknown",
+    "injury_location": "Thumb",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": [
+      "michael_genix",
+      "stephanie_saal"
+    ]
+  },
+  {
+    "date": "2017-12-21",
+    "time": "10:45:00",
+    "age": "5",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Unknown",
+    "injury_location": "Face",
+    "treatment": null,
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Unknown",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": [
+      "vincent_larochelle"
+    ]
+  },
+  {
+    "date": "2017-12-22",
+    "time": "10:00:00",
+    "age": "13",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": [
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2017-12-22",
+    "time": "13:40:00",
+    "age": "25",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Unknown",
+    "injury_location": "Thigh",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "fabien_cayer-barrioz",
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2017-12-27",
+    "time": "14:00:00",
+    "age": "12",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Knee",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "fabien_cayer-barrioz"
+    ]
+  },
+  {
+    "date": "2017-12-27",
+    "time": "14:10:00",
+    "age": "27",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Day ticket",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": [
+      "fabien_cayer-barrioz"
+    ]
+  },
+  {
+    "date": "2017-12-28",
+    "time": "10:30:00",
+    "age": "13",
+    "gender": "Male",
+    "ability": "50",
+    "ticket_type": "Season Pass",
+    "injury_location": "Foot",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "amanda_mouchet",
+      "Tim Lamoureux (Red Tim)",
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2017-12-28",
+    "time": "13:20:00",
+    "age": "28",
+    "gender": "Female",
+    "ability": "-1",
+    "ticket_type": "Not applicable",
+    "injury_location": "Hand",
+    "treatment": [
+      "Laceration"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Other",
+    "patrollers": [
+      "Ken Howard"
+    ]
+  },
+  {
+    "date": "2018-01-02",
+    "time": "13:00:00",
+    "age": "13",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Knee",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": null
+  },
+  {
+    "date": "2018-01-02",
+    "time": "14:30:00",
+    "age": "12",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Unknown",
+    "injury_location": "Lower back",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": [
+      "fabien_cayer-barrioz"
+    ]
+  },
+  {
+    "date": "2018-01-02",
+    "time": "14:42:00",
+    "age": "9",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Day ticket",
+    "injury_location": "Head",
+    "treatment": [
+      "Bruise",
+      "Concussion"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "samuel_oettli",
+      "Ken Howard"
+    ]
+  },
+  {
+    "date": "2018-01-02",
+    "time": "12:30:00",
+    "age": "13",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Day ticket",
+    "injury_location": "Lower leg",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": null
+  },
+  {
+    "date": "2018-01-06",
+    "time": "11:05:00",
+    "age": "35",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Day ticket",
+    "injury_location": "Tailbone",
+    "treatment": [
+      "Bruise",
+      "Strain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "don_white",
+      "fabien_cayer-barrioz",
+      "vincent_larochelle"
+    ]
+  },
+  {
+    "date": "2018-01-06",
+    "time": "12:15:00",
+    "age": "8",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Day ticket",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Unknown",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": [
+      "don_white",
+      "Kylie Campbell",
+      "stephanie_saal"
+    ]
+  },
+  {
+    "date": "2018-01-06",
+    "time": "14:10:00",
+    "age": "33",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Day ticket",
+    "injury_location": "Knee",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "don_white",
+      "Kylie Campbell"
+    ]
+  },
+  {
+    "date": "2018-01-06",
+    "time": "11:10:00",
+    "age": "22",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Hip",
+    "treatment": [
+      "Bruise",
+      "Laceration"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "don_white",
+      "Kylie Campbell",
+      "Steve Reid",
+      "robert_strong"
+    ]
+  },
+  {
+    "date": "2018-01-07",
+    "time": "14:35:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Upper back",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "fabien_cayer-barrioz"
+    ]
+  },
+  {
+    "date": "2018-01-13",
+    "time": "11:00:00",
+    "age": "23",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Unknown",
+    "injury_location": "Wrist",
+    "treatment": [
+      "Not applicable"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Doctor",
+    "patrollers": [
+      "fabien_cayer-barrioz"
+    ]
+  },
+  {
+    "date": "2018-01-13",
+    "time": "11:15:00",
+    "age": "10",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower back",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)",
+      "louis-philippe_roy"
+    ]
+  },
+  {
+    "date": "2018-01-13",
+    "time": "13:35:00",
+    "age": "9",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Hip",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "heather_swystun",
+      "louis-philippe_roy"
+    ]
+  },
+  {
+    "date": "2018-01-14",
+    "time": "12:50:00",
+    "age": "12",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Shoulder",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "don_white"
+    ]
+  },
+  {
+    "date": "2018-01-14",
+    "time": "13:15:00",
+    "age": "12",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Shoulder",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Kylie Campbell"
+    ]
+  },
+  {
+    "date": "2018-01-14",
+    "time": "10:30:00",
+    "age": "15",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Day ticket",
+    "injury_location": "Lower back",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "don_white",
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-01-19",
+    "time": "10:20:00",
+    "age": "9",
+    "gender": "Male",
+    "ability": "0",
+    "ticket_type": "Unknown",
+    "injury_location": "Wrist",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Steve Reid",
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-01-20",
+    "time": "13:00:00",
+    "age": "17",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Shoulder",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "austin_neill",
+      "william_ball"
+    ]
+  },
+  {
+    "date": "2018-01-27",
+    "time": "10:20:00",
+    "age": "16",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Ankle",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-02-09",
+    "time": "12:00:00",
+    "age": "11",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Wrist",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Not applicable",
+    "location": null,
+    "destination": "Not applicable",
+    "patrollers": [
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2018-02-09",
+    "time": "13:15:00",
+    "age": "14",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Knee",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "fabien_cayer-barrioz"
+    ]
+  },
+  {
+    "date": "2018-02-10",
+    "time": "15:45:00",
+    "age": "14",
+    "gender": "Male",
+    "ability": "50",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower back",
+    "treatment": [
+      "Fracture",
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "austin_neill",
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2018-02-10",
+    "time": "15:15:00",
+    "age": "9",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Season Pass",
+    "injury_location": "Thumb",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "austin_neill"
+    ]
+  },
+  {
+    "date": "2018-02-10",
+    "time": "11:30:00",
+    "age": "13",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Clavicle",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "kirstie_simpson"
+    ]
+  },
+  {
+    "date": "2018-02-16",
+    "time": "10:00:00",
+    "age": "65",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Thumb",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-02-16",
+    "time": "12:00:00",
+    "age": "25",
+    "gender": "Male",
+    "ability": "0",
+    "ticket_type": "Season Pass",
+    "injury_location": "Clavicle",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-02-17",
+    "time": "12:05:00",
+    "age": "9",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "don_white"
+    ]
+  },
+  {
+    "date": "2018-02-17",
+    "time": "15:00:00",
+    "age": "18",
+    "gender": "Male",
+    "ability": "50",
+    "ticket_type": "Season Pass",
+    "injury_location": "Thigh",
+    "treatment": null,
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "bill_mann",
+      "don_white",
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2018-02-23",
+    "time": "12:00:00",
+    "age": "29",
+    "gender": "Female",
+    "ability": "20",
+    "ticket_type": "Season Pass",
+    "injury_location": "Head",
+    "treatment": [
+      "Bruise",
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "kim_schlosser"
+    ]
+  },
+  {
+    "date": "2018-02-23",
+    "time": "12:50:00",
+    "age": "38",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Unknown",
+    "injury_location": "Lower back",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "Daniel Joseph",
+      "louis-philippe_roy"
+    ]
+  },
+  {
+    "date": "2018-02-24",
+    "time": "15:30:00",
+    "age": "14",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Clavicle",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "tim_sellars"
+    ]
+  },
+  {
+    "date": "2018-02-24",
+    "time": "13:20:00",
+    "age": "29",
+    "gender": "Female",
+    "ability": "0",
+    "ticket_type": "Day ticket",
+    "injury_location": "Thumb",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-02-24",
+    "time": "14:30:00",
+    "age": "43",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower back",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)",
+      "tim_sellars",
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2018-02-25",
+    "time": "10:45:00",
+    "age": "44",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Upper arm",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Unknown",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": [
+      "don_white"
+    ]
+  },
+  {
+    "date": "2018-02-25",
+    "time": "11:40:00",
+    "age": "65",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Knee",
+    "treatment": [
+      "Dislocation",
+      "Strain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "amanda_mouchet",
+      "bill_mann",
+      "don_white"
+    ]
+  },
+  {
+    "date": "2018-02-25",
+    "time": "12:45:00",
+    "age": "14",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower back",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "amanda_mouchet",
+      "don_white",
+      "fabien_cayer-barrioz"
+    ]
+  },
+  {
+    "date": "2018-03-03",
+    "time": "13:40:00",
+    "age": "12",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower abdomen",
+    "treatment": [
+      "Internal"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "don_white"
+    ]
+  },
+  {
+    "date": "2018-03-09",
+    "time": "11:00:00",
+    "age": "33",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Thigh",
+    "treatment": [
+      "Internal"
+    ],
+    "transport_base": "Download",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": [
+      "fabien_cayer-barrioz"
+    ]
+  },
+  {
+    "date": "2018-03-09",
+    "time": "14:50:00",
+    "age": "33",
+    "gender": "Male",
+    "ability": "50",
+    "ticket_type": "Season Pass",
+    "injury_location": "Tailbone",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "fabien_cayer-barrioz",
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2018-03-10",
+    "time": "11:40:00",
+    "age": "12",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Wrist",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "amanda_mouchet"
+    ]
+  },
+  {
+    "date": "2018-03-10",
+    "time": "14:30:00",
+    "age": "9",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Season Pass",
+    "injury_location": "Neck",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "don_white"
+    ]
+  },
+  {
+    "date": "2018-03-16",
+    "time": "10:30:00",
+    "age": "11",
+    "gender": "Female",
+    "ability": "20",
+    "ticket_type": "Day ticket",
+    "injury_location": "Lower leg",
+    "treatment": [
+      "Laceration"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "fabien_cayer-barrioz",
+      "kim_schlosser"
+    ]
+  },
+  {
+    "date": "2018-03-16",
+    "time": "12:40:00",
+    "age": "11",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Day ticket",
+    "injury_location": "Hand",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-03-16",
+    "time": "13:10:00",
+    "age": "13",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Wrist",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Bus",
+    "location": null,
+    "destination": "Other",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-03-16",
+    "time": "13:15:00",
+    "age": "12",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Tailbone",
+    "treatment": [
+      "Not applicable"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "kim_schlosser"
+    ]
+  },
+  {
+    "date": "2018-03-16",
+    "time": "14:30:00",
+    "age": "14",
+    "gender": "Male",
+    "ability": "50",
+    "ticket_type": "Season Pass",
+    "injury_location": "Knee",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "fabien_cayer-barrioz",
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-03-17",
+    "time": "13:45:00",
+    "age": "9",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower leg",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)",
+      "vincent_larochelle",
+      "louis-philippe_roy"
+    ]
+  },
+  {
+    "date": "2018-03-17",
+    "time": "14:30:00",
+    "age": "31",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Thumb",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-03-18",
+    "time": "12:45:00",
+    "age": "13",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Unknown",
+    "injury_location": "Wrist",
+    "treatment": [
+      "Fracture",
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "pascale_geoffroy"
+    ]
+  },
+  {
+    "date": "2018-03-18",
+    "time": "15:00:00",
+    "age": "16",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Lower back",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "amanda_mouchet",
+      "Tim Lamoureux (Red Tim)",
+      "pascale_geoffroy",
+      "melodie_brock"
+    ]
+  },
+  {
+    "date": "2018-03-19",
+    "time": "11:30:00",
+    "age": "12",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Wrist",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "kim_schlosser"
+    ]
+  },
+  {
+    "date": "2018-03-19",
+    "time": "11:45:00",
+    "age": "13",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Thumb",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": [
+      "amanda_mouchet"
+    ]
+  },
+  {
+    "date": "2018-03-20",
+    "time": "11:45:00",
+    "age": "6",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Season Pass",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Unknown",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": [
+      "amanda_mouchet"
+    ]
+  },
+  {
+    "date": "2018-03-20",
+    "time": "13:35:00",
+    "age": "9",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Day ticket",
+    "injury_location": "Knee",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "fabien_cayer-barrioz",
+      "melodie_brock"
+    ]
+  },
+  {
+    "date": "2018-03-21",
+    "time": "11:20:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Day ticket",
+    "injury_location": "Ankle",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": [
+      "amanda_mouchet"
+    ]
+  },
+  {
+    "date": "2018-03-21",
+    "time": "11:15:00",
+    "age": "7",
+    "gender": "Female",
+    "ability": "20",
+    "ticket_type": "Day ticket",
+    "injury_location": "Head",
+    "treatment": null,
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": [
+      "amanda_mouchet"
+    ]
+  },
+  {
+    "date": "2018-03-21",
+    "time": "13:00:00",
+    "age": "7",
+    "gender": "Female",
+    "ability": "20",
+    "ticket_type": "Day ticket",
+    "injury_location": "Lower leg",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": [
+      "amanda_mouchet",
+      "fabien_cayer-barrioz"
+    ]
+  },
+  {
+    "date": "2018-03-23",
+    "time": "15:00:00",
+    "age": "60",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Unknown",
+    "injury_location": "Clavicle",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "samuel_oettli",
+      "Tim Lamoureux (Red Tim)",
+      "Julien M\u00e9rat"
+    ]
+  },
+  {
+    "date": "2018-03-23",
+    "time": "12:00:00",
+    "age": "9",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Unknown",
+    "injury_location": "Clavicle",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": [
+      "Steve Reid",
+      "Julien M\u00e9rat"
+    ]
+  },
+  {
+    "date": "2018-03-23",
+    "time": "16:20:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Day ticket",
+    "injury_location": "Face",
+    "treatment": [
+      "Laceration"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": [
+      "Julien M\u00e9rat"
+    ]
+  },
+  {
+    "date": "2018-03-24",
+    "time": "15:15:00",
+    "age": "11",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Unknown",
+    "injury_location": "Knee",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "fabien_cayer-barrioz"
+    ]
+  },
+  {
+    "date": "2018-03-24",
+    "time": "15:00:00",
+    "age": "33",
+    "gender": "Female",
+    "ability": "20",
+    "ticket_type": "Day ticket",
+    "injury_location": "Knee",
+    "treatment": [
+      "Laceration"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "fabien_cayer-barrioz",
+      "samuel_oettli",
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-03-25",
+    "time": "11:30:00",
+    "age": "21",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Season Pass",
+    "injury_location": "Hip",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": [
+      "don_white"
+    ]
+  },
+  {
+    "date": "2018-03-25",
+    "time": "14:20:00",
+    "age": "41",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Wrist",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "austin_neill",
+      "don_white"
+    ]
+  },
+  {
+    "date": "2018-03-25",
+    "time": "11:40:00",
+    "age": "12",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Unknown",
+    "injury_location": "Upper arm",
+    "treatment": [
+      "Dislocation",
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2018-03-26",
+    "time": "15:00:00",
+    "age": "9",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Lower leg",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "fabien_cayer-barrioz"
+    ]
+  },
+  {
+    "date": "2018-03-26",
+    "time": "13:20:00",
+    "age": "68",
+    "gender": "Female",
+    "ability": "30",
+    "ticket_type": "Unknown",
+    "injury_location": "Knee",
+    "treatment": [
+      "Sprain"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2018-03-27",
+    "time": "12:50:00",
+    "age": "5",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Neck",
+    "treatment": [
+      "Internal"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "melodie_brock",
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2018-03-27",
+    "time": "17:02:00",
+    "age": "78",
+    "gender": "Male",
+    "ability": "-1",
+    "ticket_type": "Other Pass",
+    "injury_location": "Chest",
+    "treatment": [
+      "Cardiac",
+      "Internal"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2018-03-28",
+    "time": "15:30:00",
+    "age": "14",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Season Pass",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "amanda_mouchet",
+      "samuel_oettli"
+    ]
+  },
+  {
+    "date": "2018-03-28",
+    "time": "15:30:00",
+    "age": "14",
+    "gender": "Male",
+    "ability": "30",
+    "ticket_type": "Unknown",
+    "injury_location": "Chest",
+    "treatment": [
+      "Bruise",
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "samuel_oettli"
+    ]
+  },
+  {
+    "date": "2018-03-29",
+    "time": "12:45:00",
+    "age": "11",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Multi-day ticket",
+    "injury_location": "Chest",
+    "treatment": [
+      "Not applicable"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": [
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-03-29",
+    "time": "12:00:00",
+    "age": "12",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Foot",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "amanda_mouchet"
+    ]
+  },
+  {
+    "date": "2018-03-29",
+    "time": "14:10:00",
+    "age": "35",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Unknown",
+    "injury_location": "Shoulder",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "samuel_oettli",
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-03-30",
+    "time": "14:15:00",
+    "age": "13",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Season Pass",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "jason_basnett",
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2018-03-31",
+    "time": "12:30:00",
+    "age": "8",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Face",
+    "treatment": [
+      "Laceration"
+    ],
+    "transport_base": "Not applicable",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Return to ski",
+    "patrollers": [
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2018-03-31",
+    "time": "14:45:00",
+    "age": "12",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Clavicle",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "bill_mann",
+      "jason_basnett",
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-03-31",
+    "time": "13:50:00",
+    "age": "48",
+    "gender": "Female",
+    "ability": "20",
+    "ticket_type": "Day ticket",
+    "injury_location": "Knee",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "don_white",
+      "Steve Reid"
+    ]
+  },
+  {
+    "date": "2018-04-07",
+    "time": "14:30:00",
+    "age": "7",
+    "gender": "Male",
+    "ability": "20",
+    "ticket_type": "Day ticket",
+    "injury_location": "Head",
+    "treatment": [
+      "Concussion"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Walk\/Ski",
+    "location": null,
+    "destination": "Rest",
+    "patrollers": [
+      "Michael Ross"
+    ]
+  },
+  {
+    "date": "2018-04-07",
+    "time": "12:30:00",
+    "age": "3",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Lower leg",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "Daniel Joseph"
+    ]
+  },
+  {
+    "date": "2018-04-08",
+    "time": "12:30:00",
+    "age": "14",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Knee",
+    "treatment": [
+      "Bruise",
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "chris_rider",
+      "don_white",
+      "kirstie_simpson"
+    ]
+  },
+  {
+    "date": "2018-04-08",
+    "time": "13:20:00",
+    "age": "9",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Season Pass",
+    "injury_location": "Foot",
+    "treatment": [
+      "Not applicable"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "kirstie_simpson",
+      "Tim Lamoureux (Red Tim)"
+    ]
+  },
+  {
+    "date": "2018-04-08",
+    "time": "13:20:00",
+    "age": "7",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Season Pass",
+    "injury_location": "Head",
+    "treatment": [
+      "Not applicable"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Home",
+    "patrollers": [
+      "Ken Howard",
+      "kirstie_simpson"
+    ]
+  },
+  {
+    "date": "2018-04-08",
+    "time": "13:10:00",
+    "age": "9",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Lower arm",
+    "treatment": [
+      "Bruise",
+      "Strain"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Unknown",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": [
+      "don_white"
+    ]
+  },
+  {
+    "date": "2018-04-08",
+    "time": "12:00:00",
+    "age": "14",
+    "gender": "Female",
+    "ability": "10",
+    "ticket_type": "Day ticket",
+    "injury_location": "Tailbone",
+    "treatment": [
+      "Bruise"
+    ],
+    "transport_base": "Walk\/Ski",
+    "transport_out": "Unknown",
+    "location": null,
+    "destination": "Unknown",
+    "patrollers": [
+      "kirstie_simpson"
+    ]
+  },
+  {
+    "date": "2018-04-08",
+    "time": "14:05:00",
+    "age": "25",
+    "gender": "Male",
+    "ability": "40",
+    "ticket_type": "Unknown",
+    "injury_location": "Knee",
+    "treatment": [
+      "Strain"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "don_white",
+      "samuel_oettli",
+      "kirstie_simpson"
+    ]
+  },
+  {
+    "date": "2018-04-14",
+    "time": "14:08:00",
+    "age": "15",
+    "gender": "Male",
+    "ability": "50",
+    "ticket_type": "Season Pass",
+    "injury_location": "Clavicle",
+    "treatment": [
+      "Fracture"
+    ],
+    "transport_base": "Snowmobile",
+    "transport_out": "Private Car",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "amanda_mouchet",
+      "don_white",
+      "sylvie_geoffroy"
+    ]
+  },
+  {
+    "date": "2018-06-06",
+    "time": "14:20:00",
+    "age": "13",
+    "gender": "Male",
+    "ability": "10",
+    "ticket_type": "Unknown",
+    "injury_location": "Thigh",
+    "treatment": [
+      "Concussion",
+      "Fracture"
+    ],
+    "transport_base": "Toboggan",
+    "transport_out": "Ambulance",
+    "location": null,
+    "destination": "Hospital",
+    "patrollers": [
+      "fabien_cayer-barrioz",
+      "Steve Reid"
+    ]
+  }
+]
