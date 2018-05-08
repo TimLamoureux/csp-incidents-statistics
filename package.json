@@ -2,7 +2,7 @@
   "name": "incidents-stats",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aparadox.github.io/csp-incidents-statistics",
+  "homepage": "https://statistics.yukonskipatrol.ca",
   "dependencies": {
     "highcharts": "^5.0.0",
     "immutable": "^3.8.2",

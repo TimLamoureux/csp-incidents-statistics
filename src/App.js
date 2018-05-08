@@ -49,6 +49,7 @@ class App extends Component {
 
         let gender = incidents.getOneMetric("gender").toUsableData();
         let age = incidents.getOneMetric("age").groupByNumber("5").toUsableData();
+        let activity = incidents.getOneMetric("activity").toUsableData();
         let injury_location = incidents.getOneMetric("injury_location").toUsableData(/*sort*/);
         let treatments = incidents.getOneMetric("treatment").toUsableData();
         let patrollers = incidents.getOneMetric("patrollers").toUsableData();
@@ -89,6 +90,7 @@ class App extends Component {
                 <h3>Number of incidents: {incidents.data.length}</h3>
                 <ColumnChart id="column-age" title="Age of patients" data={age} />
                 <PieChart id="pie-gender" title="Gender of patients" data={gender} />
+                <PieChart id="pie-gender" title="Activity performed by injured patients" data={activity} />
                 <ColumnChart id="column-injury-location" title="Location of the injury" data={injury_location} />
                 <PieChart id="pie-injury-treatment" title="Treatments" data={treatments} />
                 <ColumnChart id="column-patroller" title="Number of incidents a patroller has responded to" data={patrollers} />
