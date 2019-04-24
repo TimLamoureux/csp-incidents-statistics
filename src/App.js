@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
-import 'react-datepicker/dist/react-datepicker.css'
+import React, {Component} from 'react';
 import './App.css';
-
 
 import moment from 'moment';
 import 'flatpickr/dist/themes/material_green.css'
@@ -14,9 +12,6 @@ import ColumnChart from "./Components/ColumnChart";
 //import SankeyChart from "./Components/SankeyChart";
 
 
-
-
-
 // Todo add possibility to filter dates
 
 
@@ -25,7 +20,7 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            dateFormat: 'YYYY/MM/DD',
+            dateFormat: 'Y-m-d',
             startDate: moment().startOf('year').toDate(),
             endDate: moment().toDate(),
             rawIncidents: new Incidents()
@@ -39,10 +34,10 @@ class App extends Component {
     }
 
     refreshData() {
-        this.state.incidents = this.state.rawIncidents.filter( {
+        this.state.incidents = this.state.rawIncidents.filter({
             dateStart: this.state.startDate,
             dateEnd: this.state.endDate
-        } );
+        });
         let incidents = this.state.incidents;
 
         this.state.gender = incidents.getOneMetric("gender").toUsableData();
@@ -51,24 +46,26 @@ class App extends Component {
         this.state.injury_location = incidents.getOneMetric("injury_location").toUsableData(/*sort*/);
         this.state.treatments = incidents.getOneMetric("treatment").toUsableData();
         this.state.patrollers = incidents.getOneMetric("patrollers").toUsableData();
-        this.state.transport_base  = incidents.getOneMetric("transport_base").toUsableData();
-        this.state.transport_out  = incidents.getOneMetric("transport_out").toUsableData();
-        this.state.destination  = incidents.getOneMetric("destination").toUsableData();
+        this.state.transport_base = incidents.getOneMetric("transport_base").toUsableData();
+        this.state.transport_out = incidents.getOneMetric("transport_out").toUsableData();
+        this.state.destination = incidents.getOneMetric("destination").toUsableData();
     }
-
 
 
     render() {
 
-        //let incidents = new Incidents();
-        //incidents = incidents.filter( {dateStart: "2018-10-01", dateEnd: "2019-05-31"} );
+        let dateChange = (dateObj, dateStr, flatpickrInstance) => {
+            if ( typeof flatpickrInstance.config.id === 'undefined' )
+                return;
 
-        // TODO: implement me and sorting order, watchout sort has side effects, it sorts in place
-        // let sort = (order = "ASC") => {
-        //     //Object.keys(this).sort(function(a,b){return this[a]-this[b]})
-        //     //this.sort();
-        // }
-
+            this.setState({
+                // Interpolate state var name from flatpickr object config
+                [flatpickrInstance.config.id]: dateStr
+            }, () => {
+                console.log(`Updated ${flatpickrInstance.config.id} (${dateStr}). Calling refresh.`);
+                this.refreshData();
+            });
+        };
 
 
         //incidents.toSankeyData( ["transport_base", "transport_out"], "destination" );
@@ -81,72 +78,48 @@ class App extends Component {
                 <div>
                     Between &nbsp;
                     <Flatpickr
-                        id={'startDate'}
                         value={this.state.startDate}
-                        onChange={date => { this.setState({date}) }}
+                        onChange={dateChange}
+                        options={{
+                            id: 'startDate',
+                            altFormat: this.state.dateFormat,
+                            dateFormat: this.state.dateFormat,
+                            maxDate: new Date()
+                        }}
                     />
-                    {/*<DatePicker*/}
-                        {/*dateFormat={this.state.dateFormat}*/}
-                        {/*maxDate={new Date()}*/}
-                        {/*selected={this.state.startDate}*/}
-                        {/*onChange={(date) => {*/}
-                            {/*this.setState({*/}
-                                {/*startDate: date*/}
-                            {/*}, () => {*/}
-                                {/*console.log(`Updated Start Time (${date.format()}). Calling refresh.`);*/}
-                                {/*this.refreshData();*/}
-                            {/*});*/}
-                        {/*}}*/}
-                        {/*showMonthDropdown*/}
-                        {/*showYearDropdown*/}
-                        {/*scrollableYearDropdown*/}
-                        {/*yearDropdownItemNumber={5}*/}
-                        {/*todayButton={"Today"}*/}
-                        {/*inline*/}
-                    {/*/>*/}
                     &nbsp;and&nbsp;
                     <Flatpickr
                         id={'endDate'}
                         value={this.state.endDate}
-                        onChange={date => { this.setState({date}) }}
+                        onChange={dateChange}
+                        options={{
+                            id: 'endDate',
+                            altFormat: this.state.dateFormat,
+                            dateFormat: this.state.dateFormat,
+                            maxDate: new Date()
+                        }}
                     />
-                    {/*<DatePicker*/}
-                        {/*dateFormat={this.state.dateFormat}*/}
-                        {/*maxDate={new Date()}*/}
-                        {/*selected={this.state.endDate}*/}
-                        {/*onChange={(date) => {*/}
-                            {/*this.setState({*/}
-                                {/*endDate: date*/}
-                            {/*}, () => {*/}
-                                {/*console.log(`Updated Start Time (${date.format()}). Calling refresh.`);*/}
-                                {/*this.refreshData();*/}
-                            {/*});*/}
-                        {/*}}*/}
-                        {/*showYearDropdown*/}
-                        {/*scrollableYearDropdown*/}
-                        {/*yearDropdownItemNumber={5}*/}
-                        {/*todayButton={"Today"}*/}
-                        {/*inline*/}
-                    {/*/>*/}
                 </div>
                 <h2>Number of incidents: {this.state.incidents.data.length}</h2>
-                <ColumnChart id="column-age" title="Age of patients" data={this.state.age} />
-                <PieChart id="pie-gender" title="Gender of patients" data={this.state.gender} />
-                <PieChart id="pie-gender" title="Activity performed by injured patients" data={this.state.activity} />
-                <ColumnChart id="column-injury-location" title="Location of the injury" data={this.state.injury_location} />
-                <PieChart id="pie-injury-treatment" title="Treatments" data={this.state.treatments} />
-                <ColumnChart id="column-patroller" title="Number of incidents a patroller has responded to" data={this.state.patrollers} />
-                <PieChart id="pie-transport-base" title="How were patients transported to the base" data={this.state.transport_base} />
-                <PieChart id="pie-transport-out" title="How did the patients leave the base" data={this.state.transport_out} />
-                <PieChart id="pie-transport-destination" title="Where did the patients go" data={this.state.destination} />
+                <ColumnChart id="column-age" title="Age of patients" data={this.state.age}/>
+                <PieChart id="pie-gender" title="Gender of patients" data={this.state.gender}/>
+                <PieChart id="pie-gender" title="Activity performed by injured patients" data={this.state.activity}/>
+                <ColumnChart id="column-injury-location" title="Location of the injury"
+                             data={this.state.injury_location}/>
+                <PieChart id="pie-injury-treatment" title="Treatments" data={this.state.treatments}/>
+                <ColumnChart id="column-patroller" title="Number of incidents a patroller has responded to"
+                             data={this.state.patrollers}/>
+                <PieChart id="pie-transport-base" title="How were patients transported to the base"
+                          data={this.state.transport_base}/>
+                <PieChart id="pie-transport-out" title="How did the patients leave the base"
+                          data={this.state.transport_out}/>
+                <PieChart id="pie-transport-destination" title="Where did the patients go"
+                          data={this.state.destination}/>
                 {/*<PieChart id="pie-trp-base" title="Transport from base" data={trp_base} />*/}
 
 
             </div>
         )
-
-
-
 
 
     }
