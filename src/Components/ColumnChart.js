@@ -4,9 +4,7 @@ import {
     HighchartsChart,
     withHighcharts,
     Title,
-    Chart,
     ColumnSeries,
-    Legend,
     Tooltip,
     XAxis,
     YAxis

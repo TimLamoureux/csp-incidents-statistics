@@ -72,5 +72,5 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
-/CNAME
 /useful_links.txt
+/public/CNAME

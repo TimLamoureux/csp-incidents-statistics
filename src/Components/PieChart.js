@@ -4,11 +4,9 @@ import {
     HighchartsChart,
     withHighcharts,
     Title,
-    Chart,
     PieSeries,
     Legend,
     Tooltip,
-    XAxis,
     YAxis
 } from 'react-jsx-highcharts';
 
