@@ -4,7 +4,8 @@ import './App.css';
 
 
 import moment from 'moment';
-import DatePicker from 'react-datepicker';
+import 'flatpickr/dist/themes/material_green.css'
+import Flatpickr from 'react-flatpickr';
 
 // Data
 import Incidents from "./Components/Incidents";
@@ -25,8 +26,8 @@ class App extends Component {
         super();
         this.state = {
             dateFormat: 'YYYY/MM/DD',
-            startDate: moment().startOf('year'),
-            endDate: moment(),
+            startDate: moment().startOf('year').toDate(),
+            endDate: moment().toDate(),
             rawIncidents: new Incidents()
         };
 
@@ -79,44 +80,54 @@ class App extends Component {
                 <h1>Statistics</h1>
                 <div>
                     Between &nbsp;
-                    <DatePicker
-                        dateFormat={this.state.dateFormat}
-                        maxDate={moment()}
-                        selected={this.state.startDate}
-                        onChange={(date) => {
-                            this.setState({
-                                startDate: date
-                            }, () => {
-                                console.log(`Updated Start Time (${date.format()}). Calling refresh.`);
-                                this.refreshData();
-                            });
-                        }}
-                        showMonthDropdown
-                        showYearDropdown
-                        scrollableYearDropdown
-                        yearDropdownItemNumber={5}
-                        todayButton={"Today"}
-                        inline
+                    <Flatpickr
+                        id={'startDate'}
+                        value={this.state.startDate}
+                        onChange={date => { this.setState({date}) }}
                     />
+                    {/*<DatePicker*/}
+                        {/*dateFormat={this.state.dateFormat}*/}
+                        {/*maxDate={new Date()}*/}
+                        {/*selected={this.state.startDate}*/}
+                        {/*onChange={(date) => {*/}
+                            {/*this.setState({*/}
+                                {/*startDate: date*/}
+                            {/*}, () => {*/}
+                                {/*console.log(`Updated Start Time (${date.format()}). Calling refresh.`);*/}
+                                {/*this.refreshData();*/}
+                            {/*});*/}
+                        {/*}}*/}
+                        {/*showMonthDropdown*/}
+                        {/*showYearDropdown*/}
+                        {/*scrollableYearDropdown*/}
+                        {/*yearDropdownItemNumber={5}*/}
+                        {/*todayButton={"Today"}*/}
+                        {/*inline*/}
+                    {/*/>*/}
                     &nbsp;and&nbsp;
-                    <DatePicker
-                        dateFormat={this.state.dateFormat}
-                        maxDate={moment()}
-                        selected={this.state.endDate}
-                        onChange={(date) => {
-                            this.setState({
-                                endDate: date
-                            }, () => {
-                                console.log(`Updated Start Time (${date.format()}). Calling refresh.`);
-                                this.refreshData();
-                            });
-                        }}
-                        showYearDropdown
-                        scrollableYearDropdown
-                        yearDropdownItemNumber={5}
-                        todayButton={"Today"}
-                        inline
+                    <Flatpickr
+                        id={'endDate'}
+                        value={this.state.endDate}
+                        onChange={date => { this.setState({date}) }}
                     />
+                    {/*<DatePicker*/}
+                        {/*dateFormat={this.state.dateFormat}*/}
+                        {/*maxDate={new Date()}*/}
+                        {/*selected={this.state.endDate}*/}
+                        {/*onChange={(date) => {*/}
+                            {/*this.setState({*/}
+                                {/*endDate: date*/}
+                            {/*}, () => {*/}
+                                {/*console.log(`Updated Start Time (${date.format()}). Calling refresh.`);*/}
+                                {/*this.refreshData();*/}
+                            {/*});*/}
+                        {/*}}*/}
+                        {/*showYearDropdown*/}
+                        {/*scrollableYearDropdown*/}
+                        {/*yearDropdownItemNumber={5}*/}
+                        {/*todayButton={"Today"}*/}
+                        {/*inline*/}
+                    {/*/>*/}
                 </div>
                 <h2>Number of incidents: {this.state.incidents.data.length}</h2>
                 <ColumnChart id="column-age" title="Age of patients" data={this.state.age} />
