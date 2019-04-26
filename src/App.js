@@ -21,16 +21,19 @@ class App extends Component {
 
     constructor() {
         super();
-        /*this.state = {};
-        this.setState({
-            dateFormat: 'Y-m-d',
-            startDate: moment().startOf('year').toDate(),
-            endDate: moment().toDate(),
-            rawIncidents: new Incidents()
-        });*/
+
+        // Adjust timeframe for current season.
+        // Check if before Nov 1st. If so, substract one year and set to nov 1st. If Nov and Dec, sets to nov 1st of this year
+        let start = moment();
+
+        if ( start.month() < 10 ) {
+            start = start.year(start.year()-1);
+        }
+        start.month('October').date(1);
+
         this.state = {
             dateFormat: 'Y-m-d',
-            startDate: moment().startOf('year').toDate(),
+            startDate: start.toDate(),
             endDate: moment().toDate(),
             rawIncidents: new Incidents(),
             // incidents: filteredIncidents,
