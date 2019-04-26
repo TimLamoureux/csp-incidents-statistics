@@ -9,6 +9,8 @@ import Flatpickr from 'react-flatpickr';
 import Incidents from "./Components/Incidents";
 import PieChart from "./Components/PieChart";
 import ColumnChart from "./Components/ColumnChart";
+import { withHighcharts } from 'react-jsx-highcharts';
+import Highcharts from 'highcharts/highcharts';
 //import SankeyChart from "./Components/SankeyChart";
 
 
@@ -19,13 +21,33 @@ class App extends Component {
 
     constructor() {
         super();
-        this.state = {
+        /*this.state = {};
+        this.setState({
             dateFormat: 'Y-m-d',
             startDate: moment().startOf('year').toDate(),
             endDate: moment().toDate(),
             rawIncidents: new Incidents()
-        };
+        });*/
+        this.state = {
+            dateFormat: 'Y-m-d',
+            startDate: moment().startOf('year').toDate(),
+            endDate: moment().toDate(),
+            rawIncidents: new Incidents(),
+            // incidents: filteredIncidents,
+            // incidentCount: filteredIncidents.data.length,
+            gender: [],
+            age: [],
+            activity: [],
+            injury_location: [],
+            treatments: [],
+            patrollers: [],
+            transport_base: [],
+            transport_out: [],
+            destination: []
+        }
+    }
 
+    componentDidMount() {
         this.refreshData();
     }
 
@@ -34,28 +56,33 @@ class App extends Component {
     }
 
     refreshData() {
-        this.state.incidents = this.state.rawIncidents.filter({
+        let filteredIncidents = this.state.rawIncidents.filter({
             dateStart: this.state.startDate,
             dateEnd: this.state.endDate
         });
-        let incidents = this.state.incidents;
 
-        this.state.gender = incidents.getOneMetric("gender").toUsableData();
-        this.state.age = incidents.getOneMetric("age").groupByNumber("5").toUsableData();
-        this.state.activity = incidents.getOneMetric("activity").toUsableData();
-        this.state.injury_location = incidents.getOneMetric("injury_location").toUsableData(/*sort*/);
-        this.state.treatments = incidents.getOneMetric("treatment").toUsableData();
-        this.state.patrollers = incidents.getOneMetric("patrollers").toUsableData();
-        this.state.transport_base = incidents.getOneMetric("transport_base").toUsableData();
-        this.state.transport_out = incidents.getOneMetric("transport_out").toUsableData();
-        this.state.destination = incidents.getOneMetric("destination").toUsableData();
+        this.setState({
+            incidents: filteredIncidents,
+            incidentCount: filteredIncidents.data.length,
+            gender: filteredIncidents.getOneMetric("gender").toUsableData(),
+            age: filteredIncidents.getOneMetric("age").groupByNumber("5").toUsableData(),
+            activity: filteredIncidents.getOneMetric("activity").toUsableData(),
+            injury_location: filteredIncidents.getOneMetric("injury_location").toUsableData(/*sort*/),
+            treatments: filteredIncidents.getOneMetric("treatment").toUsableData(),
+            patrollers: filteredIncidents.getOneMetric("patrollers").toUsableData(),
+            transport_base: filteredIncidents.getOneMetric("transport_base").toUsableData(),
+            transport_out: filteredIncidents.getOneMetric("transport_out").toUsableData(),
+            destination: filteredIncidents.getOneMetric("destination").toUsableData()
+        });
+
+
     }
 
 
     render() {
 
         let dateChange = (dateObj, dateStr, flatpickrInstance) => {
-            if ( typeof flatpickrInstance.config.id === 'undefined' )
+            if (typeof flatpickrInstance.config.id === 'undefined')
                 return;
 
             this.setState({
@@ -100,7 +127,7 @@ class App extends Component {
                         }}
                     />
                 </div>
-                <h2>Number of incidents: {this.state.incidents.data.length}</h2>
+                <h2>Number of incidents: {this.state.incidentCount}</h2>
                 <ColumnChart id="column-age" title="Age of patients" data={this.state.age}/>
                 <PieChart id="pie-gender" title="Gender of patients" data={this.state.gender}/>
                 <PieChart id="pie-gender" title="Activity performed by injured patients" data={this.state.activity}/>
@@ -125,4 +152,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default withHighcharts(App, Highcharts);

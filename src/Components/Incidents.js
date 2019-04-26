@@ -1,8 +1,6 @@
 import incidentsData from '../incidents.json';
 import {cloneDeep} from 'lodash';
-//import moment from 'moment';
 import moment from 'moment';
-// import { List } from 'immutable';
 
 
 /*export default {
